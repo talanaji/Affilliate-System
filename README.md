@@ -16,9 +16,9 @@ Each user has a dashboard and the website include :
 
 - Settings Module <br/>
   All users can manage their store and change the logo and style of the store
-
-You can try the website 
-https://youbestgadgets.com/
-https://youbestgadgets.com/admin
-username: admin
-password: admin
+<br/>
+You can try the website <br/>
+https://youbestgadgets.com/<br/>
+https://youbestgadgets.com/admin<br/>
+username: admin<br/>
+password: admin<br/>
