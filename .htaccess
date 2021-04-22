@@ -1,0 +1,10 @@
+RewriteEngine On 
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+RewriteRule ^search$ search.php [L]
+RewriteRule ^user/(.*)$ index.php?usr_code=$1 [L]
+RewriteRule ^cat/(.*)$  categories.php?cat_code=$1 [L]
+RewriteRule ^prod/(.*)$  productDetails.php?p_code=$1 [L]
+RewriteRule ^shop$  shop-grid.php [L]
